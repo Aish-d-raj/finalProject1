@@ -1,0 +1,21 @@
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 200px;
+    column-count: 3;
+    
+    
+  }
+.mainsec{
+    background-color: rgb(20, 20, 20);
+}
+.sec1,.sec2,.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    transform: skew(-14deg);
+    background-color: rgb(44, 44, 44);
+}
